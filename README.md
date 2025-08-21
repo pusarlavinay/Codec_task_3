@@ -85,10 +85,11 @@ Packages (already in requirements.txt):
 requests
 colorama
 
-Author:
-Pusarla Vinay
 
 
 🤝 Contribution
 
 Want to add more modules (like a brute-forcer or directory scanner)? Fork this repo and submit a pull request!
+
+Author:
+Pusarla Vinay
