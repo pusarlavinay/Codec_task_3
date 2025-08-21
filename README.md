@@ -59,20 +59,11 @@ Run the toolkit with:
 python3 core.py
 
 
-You’ll see the main menu:
-
 === Penetration Testing Toolkit ===
 1. Port Scanner
 2. HTTP Info
 3. Password Audit
 4. Exit
-
-
-Select 1 → Enter host and port range to scan.
-
-Select 2 → Enter a URL to fetch headers.
-
-Select 3 → Enter a password to test its strength.
 
 
 
