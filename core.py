@@ -1,4 +1,3 @@
-import os
 import sys
 import subprocess
 
@@ -14,15 +13,15 @@ def main():
 
         if choice == "1":
             target = input("Enter target IP/hostname: ")
-            os.system(f"python3 modules/port_scanner.py {target}")
+            subprocess.run(["python3", "port_scanner.py", target])
         
         elif choice == "2":
             url = input("Enter URL: ")
-            os.system(f"python3 http_info.py {url}")
+            subprocess.run(["python3", "http_info.py", url])
         
         elif choice == "3":
             wordlist = input("Enter path to password wordlist: ")
-            os.system(f"python3 passwd.audit.py {wordlist}")
+            subprocess.run(["python3", "passwd.audit.py", wordlist])
         
         elif choice == "4":
             print("Exiting toolkit...")
