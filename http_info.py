@@ -22,3 +22,8 @@ def fetch_http_info(url: str, timeout: float = 5.0) -> Dict:
         return info
     except Exception as e:
         return {"url": url, "error": str(e)}
+
+if __name__ == "__main__":
+    import sys, json
+    url = sys.argv[1] if len(sys.argv) > 1 else input("Enter URL: ")
+    print(json.dumps(fetch_http_info(url), indent=2))
